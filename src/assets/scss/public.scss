@@ -19,7 +19,8 @@
 @import "components/btn.scss";
 @import "components/primary_btn.scss";
 // Blocks
-//..........//
+@import "blocks/recipe_name";
+@import "blocks/recipe_description";
 // Layouts
 @import "layouts/header";
 @import "layouts/form";

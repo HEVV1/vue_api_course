@@ -1,3 +1,18 @@
 .primary-btn{
-
+  color: white;
+  transition: all 150ms;
+  &.add{
+    background-color: blue;
+  }
+  &.delete{
+    background-color: darkred;
+  }
+  &.none{
+    background-color: unset;
+    color: blue;
+    font-weight: bold;
+  }
+  &:hover{
+    transform: translateY(-.3rem);
+  }
 }

@@ -11,10 +11,10 @@ h1,
 h2,
 .styled-as-h2 {
   color: $default_font_color;
-  font-size: $default_font_size;
+  font-size: 2rem;
   font-family: $default_font_family;
-  font-weight: $default_font_weight;
-  line-height: $default_line_height;
+  font-weight: 700;
+  line-height: 2;
   font-style: normal;
 }
 
