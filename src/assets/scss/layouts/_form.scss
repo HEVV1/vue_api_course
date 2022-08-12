@@ -1,0 +1,10 @@
+.layout-form {
+  width: 100%;
+  border: .1rem solid $color_black;
+  .form__button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}

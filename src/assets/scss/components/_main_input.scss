@@ -1,0 +1,28 @@
+.block-input {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  .form-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    input {
+      border: .1rem solid rgba($color_black, .4);
+      border-radius: 1rem;
+      max-width: 70rem;
+      width: 100%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      height: 4rem;
+      transition: all $default_transition_time;
+      
+      &:focus {
+        outline: none;
+        border: .1rem solid rgba(green, 1);
+      }
+    }
+  }
+}

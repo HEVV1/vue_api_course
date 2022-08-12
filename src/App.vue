@@ -1,9 +1,7 @@
 <template>
-  <span class="span_1">Text</span>
-  <div class="image">
-    <img src="../src/assets/images/strawbeery.png" alt="">
+  <div class="container">
+    <router-view></router-view>
   </div>
-  <div class="image-2"></div>
 </template>
 
 <script>
